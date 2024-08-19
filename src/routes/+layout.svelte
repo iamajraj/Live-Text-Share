@@ -8,6 +8,42 @@
 	};
 </script>
 
+<svelte:head>
+	<!-- Primary Meta Tags -->
+	<title>Live Text Share - Share and collaborate on text in real-time.</title>
+	<meta name="title" content="Live Text Share - Share and collaborate on text in real-time." />
+	<meta
+		name="description"
+		content="Share and collaborate on text in real-time with Live Text Share. Without a trace. Instant."
+	/>
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://lts.raajx.com" />
+	<meta
+		property="og:title"
+		content="Live Text Share - Share and collaborate on text in real-time."
+	/>
+	<meta
+		property="og:description"
+		content="Share and collaborate on text in real-time with Live Text Share. Without a trace. Instant."
+	/>
+	<meta property="og:image" content="/favicon.png" />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://lts.raajx.com" />
+	<meta
+		property="twitter:title"
+		content="Live Text Share - Share and collaborate on text in real-time."
+	/>
+	<meta
+		property="twitter:description"
+		content="Share and collaborate on text in real-time with Live Text Share. Without a trace. Instant."
+	/>
+	<meta property="twitter:image" content="/favicon.png" />
+</svelte:head>
+
 <div class="flex min-h-screen flex-col">
 	<!-- Navigation -->
 	<nav class="bg-gray-800 py-4 shadow-md">
