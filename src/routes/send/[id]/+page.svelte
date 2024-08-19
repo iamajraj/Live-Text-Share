@@ -31,6 +31,17 @@
 	const sendText = (ev: Event & { currentTarget: HTMLTextAreaElement }) => {
 		socket.emit('text', ev.currentTarget.value, $page.params.id);
 	};
+
+	const copyLink = () => {
+		navigator.clipboard
+			.writeText($page.url.href)
+			.then(() => {
+				alert('Link copied to clipboard!');
+			})
+			.catch((err) => {
+				console.error('Failed to copy: ', err);
+			});
+	};
 </script>
 
 <div class="flex min-h-screen flex-col bg-gray-100 p-6">
@@ -51,6 +62,12 @@
 				bind:value={text}
 				on:input={sendText}
 			></textarea>
+			<button
+				on:click={copyLink}
+				class="mt-4 rounded-lg bg-blue-600 px-4 py-2 font-semibold text-white transition-colors hover:bg-blue-700"
+			>
+				Copy Share Link
+			</button>
 		</div>
 
 		<!-- Shared Text Area -->
