@@ -4,16 +4,16 @@
 		class="container mx-auto flex flex-col items-center justify-center gap-3 lg:flex-row lg:justify-between lg:px-12"
 	>
 		<div class="text-center lg:text-left">
-			<h1 class="mb-4 text-4xl font-bold leading-tight lg:text-5xl">
+			<h1 class="mb-4 text-2xl font-bold leading-tight sm:text-4xl lg:text-5xl">
 				Share Instantly, Share Live!
 			</h1>
-			<p class="mb-8 text-lg leading-relaxed">
+			<p class="mb-8 leading-relaxed sm:text-lg">
 				Need to share a message or quick note instantly? Our service lets you do just that—live and
 				without a trace.
 			</p>
 			<a
 				href="/send"
-				class="rounded-full bg-white px-6 py-3 text-lg font-semibold text-gray-900 transition-colors hover:bg-gray-200"
+				class="rounded-full bg-white px-6 py-3 font-semibold text-gray-900 transition-colors hover:bg-gray-200 sm:text-lg"
 				>Start Sharing</a
 			>
 		</div>
